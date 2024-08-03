@@ -7,7 +7,7 @@ import Link from "next/link";
 
 //INYERNAL Import
 import { Etherescan } from "../Context/Ethere";
-import Style from "../styles/NavBar.module.css";
+import Style from "../styles/navbar.module.css";
 import { ethers } from "ethers";
 import user from "../public/avatar.png";
 import etherLogo from "../public/eth.png";
