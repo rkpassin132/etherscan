@@ -97,26 +97,26 @@ const Table = ({
   return (
     <div className={Style.table}>
       <div className={Style.table__head}>
-        <button className={Style.btn} onClick={(e) => tabs(e)}>
+        <button className={`${Style.btn} ${historyAccount ? Style.btnActive : ''}`} onClick={(e) => tabs(e)}>
           Transaction
         </button>
-        <button className={Style.btn} onClick={(e) => tabs(e)}>
+        <button className={`${Style.btn} ${addressInternalTransaction ? Style.btnActive : ''}`} onClick={(e) => tabs(e)}>
           Internal
         </button>
-        <button className={Style.btn} onClick={(e) => tabs(e)}>
+        <button className={`${Style.btn} ${TransactionRangeBlock ? Style.btnActive : ''}`} onClick={(e) => tabs(e)}>
           Trans
         </button>
 
-        <button className={Style.btn} onClick={(e) => tabs(e)}>
+        <button className={`${Style.btn} ${addressByMinedeBlock ? Style.btnActive : ''}`} onClick={(e) => tabs(e)}>
           Mined
         </button>
-        <button className={Style.btn} onClick={(e) => tabs(e)}>
+        <button className={`${Style.btn} ${openERC20 ? Style.btnActive : ''}`} onClick={(e) => tabs(e)}>
           ERC-20
         </button>
-        <button className={Style.btn} onClick={(e) => tabs(e)}>
+        <button className={`${Style.btn} ${openERC21 ? Style.btnActive : ''}`} onClick={(e) => tabs(e)}>
           ERC-21
         </button>
-        <button className={Style.btn} onClick={(e) => tabs(e)}>
+        <button className={`${Style.btn} ${openERC1155 ? Style.btnActive : ''}`} onClick={(e) => tabs(e)}>
           ERC1155
         </button>
       </div>

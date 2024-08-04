@@ -1,12 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import { RiSendPlaneFill } from "react-icons/ri";
 import {
-  TiSocialTwitter,
-  TiSocialYoutube,
   TiSocialLinkedin,
-  TiSocialFacebook,
-  TiSocialInstagram,
+  TiSocialGithub,
 } from "react-icons/ti";
 
 //INTERNAL IMPORT
@@ -17,23 +13,14 @@ const Footer = () => {
   return (
     <div className={Style.footer}>
       <div className={Style.footer__box}>
-        <Image src={footerLogo} alt="logo" width={100} height={100} />
+        <Image className={Style.img} src={footerLogo} alt="logo" />
       </div>
-      <div className={Style.footer__box}>
-        <div className={Style.footer__input}>
-          <input type="email" placeholder="Email*" />
-          <RiSendPlaneFill />
-        </div>
-      </div>
+
 
       <div className={Style.footer__box}>
         <div className={Style.social}>
-          <TiSocialTwitter />
-          <TiSocialLinkedin />
-          <TiSocialFacebook />
-          <TiSocialInstagram />
-          <TiSocialInstagram />
-          <TiSocialYoutube />
+          <a href="https://www.linkedin.com/in/rahul-kumar-392a17196/" target="_blank"><TiSocialLinkedin /></a>
+          <a href="https://github.com/rkpassin132/" target="_blank"><TiSocialGithub /></a>
         </div>
       </div>
     </div>

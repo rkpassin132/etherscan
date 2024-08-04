@@ -152,7 +152,7 @@ const account = () => {
           </h1>
 
           <button className={Style.openBtn} onClick={() => accountData()}>
-            Click Me
+            Click to load
           </button>
         </div>
       ) : (

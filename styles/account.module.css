@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     margin-block: 2rem;
-    background-color: #1F1A36;
+    background-color: #2b3645;
     color: #fff;
     padding: .5rem;
     border-radius: .5rem;
@@ -31,7 +31,7 @@
 .box span{
     margin-left: 1rem;
     font-weight: 600;
-    color: #9a02ac;
+    color: #d1d1d2;
 }
 
 .owner{
@@ -43,11 +43,12 @@
 
 .owner p{
     padding: .5rem 1rem;
-    background-color: #9a02ac;
+    background-color: #0776a9;
     align-items: center;
     border-radius: .5rem;
     font-weight: 700;
     display: flex;
+    color: white;
 }
 
 /* /////////////////////////////////// */
@@ -60,7 +61,7 @@
 }
 
 .overview{
-    background-color: #1F1A36;
+    background-color: #2b3645;
     color: #fff;
     padding: .5rem;
     border-radius: .5rem;
@@ -70,11 +71,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom:  1px solid #9a02ac;
+    border-bottom:  1px solid #758293;
 }
 
 .miner{
-    border: 1px solid #9a02ac;
+    border: 1px solid #758293;
     padding: .5rem;
     border-radius: .5rem;
 }
@@ -96,13 +97,14 @@
 
 /*  */
 .color{
-    background-color: #9a02ac;
+    background-color: #0776a9;
     padding: .5rem;
     border-radius: .5rem;
+    color: white;
 }
 
 .branding{
-    background-color: #1F1A36;
+    background-color: #2b3645;
     color: #fff;
     padding: .5rem;
     border-radius: .5rem; text-align: center;
@@ -123,7 +125,7 @@
     /* ////////////////////// */
 }
 .openBtn{
-    background-color: #1F1A36;
+    background-color: #2b3645;
     border: none;
     padding: 1rem 2rem;
 
@@ -135,7 +137,7 @@
 }
 
 .loading{
-    background-color: #1F1A36;
+    background-color: #2b3645;
     padding: .5rem;
     color: #fff;
     border-radius: .5rem;
@@ -157,7 +159,7 @@
 }
 
 .tokenBtn button{
-    background-color: #1F1A36;
+    background-color: #2b3645;
     cursor: pointer;
     color: #fff;
     padding: .5rem 1rem;
@@ -181,7 +183,7 @@
     left: 0%;
     transform: translate(-50%, -50%);
     z-index: 222;
-    background-color: #1F1A36;
+    background-color: #2b3645;
     border: none;
     padding: .5rem 1rem;
     color: #fff;
@@ -199,7 +201,7 @@
 }
 
 .formInput{
-    background-color: #1F1A36;
+    background-color: #2b3645;
     padding: .5rem;
     color: #fff;
     border-radius: .5rem;
