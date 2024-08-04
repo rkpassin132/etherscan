@@ -58,13 +58,13 @@ const index = () => {
                     <p>
                       <smap>Miner: &nbsp;&nbsp;
                         <Link className={Style.link} href={{pathname: '/account/', query: ei.miner}}>
-                          {ei.miner.slice(0,35)}...
+                          {ei.miner?.slice(0,35)}...
                         </Link>
                       </smap>
                     </p>
                     <span>
                       <Link className={Style.link} href={{pathname: '/account/', query: ei.number}}>
-                        {ei.transaction.length}
+                        {ei.transaction?.length || 0}
                       </Link>
                       &nbsp;TNS in 3Sec
                     </span>

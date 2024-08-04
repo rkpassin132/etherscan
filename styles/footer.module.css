@@ -2,7 +2,7 @@
     width: 85%;
     margin: 0 auto;
     padding: 1rem;
-    background-color: #1F1A36;
+    background-color: #2b3645;
     margin-bottom: 3rem;
     border-radius: .5rem;
 
@@ -19,7 +19,7 @@
 }
 
 .footer__input{
-    background-color: #9a02ac;
+    background-color: rgb(11, 19, 30);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,9 +35,12 @@
     width: 90%;
     color: #fff;
 }
+.footer__input svg{
+    color: white;
+}
 
 .footer__input input::-webkit-input-placeholder { /* Edge */
-    color: #1F1A36;
+    color: #d1d1d2;
     font-weight: 600;
   }
  

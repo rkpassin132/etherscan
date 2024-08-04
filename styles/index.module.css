@@ -10,7 +10,7 @@
 }
 
 .header__box{
-    background-color: #1F1A36;
+    background-color: #2b3645;
     padding: 1rem;
     border-radius: .4rem;
 }
@@ -40,7 +40,7 @@ font-weight: 700;
     gap: 2rem;
 }
 .container__box{
-    background-color: #1F1A36;
+    background-color: #2b3645;
     padding: .5rem 1rem;
     font-size: 12px;
     border-radius: .4rem;
@@ -48,23 +48,41 @@ font-weight: 700;
 }
 
 .container__box a{
-    color: #9a02ac;
+    color: #d1d1d2;
     font-weight: 700;
+    transition: .5s linear ease-in;
 }
-
+.container__box a:hover{
+    color: white;
+}
 .container__box h3{
     color: #fff;
-    border-bottom: 1px solid #9a02ac;
+    border-bottom: 1px solid #758293;
     padding: .5rem;
 }
 
 .container__block{
     height: 80vh;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
-.container__block::-webkit-scrollbar{
-    display: none;
+.container__block::-webkit-scrollbar-track {
+    background-color: #dadada;
+    border-radius: 4px;
+}
+.container__block::-webkit-scrollbar-thumb {
+    background-color: #776f6f;
+    border-radius: 4px;
+}
+.container__block::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+    background: rgb(161, 158, 158);
+    border-radius: 4px;
+}
+.container__block::-webkit-scrollbar-thumb:horizontal {
+    background: rgb(97, 95, 95);
+    border-radius: 4px;
 }
 
 .oneBlock{
@@ -73,7 +91,7 @@ font-weight: 700;
 }
 
 .bk{
-    background-color: #9a02ac;
+    background-color: #0776a9;
     width: 1.5rem;
     color: #fff;
     font-weight: bolder;
@@ -91,7 +109,7 @@ font-weight: 700;
 }
 
 .reward span{
-    color: #9a02ac;
+    color: #d1d1d2;
     font-weight: bolder;
    
 }
@@ -108,7 +126,7 @@ font-weight: 700;
 
 /* ////////////////////////////////////////////// */
 .accountAddress{
-    background-color: #1F1A36;
+    background-color: #2b3645;
     padding: .5rem;
     color: #fff;
     border-radius: .5rem;
@@ -124,6 +142,10 @@ font-weight: 700;
     padding: .5rem;
     color: #fff;
     width: 100%;
+}
+
+.accountAddress input::-webkit-input-placeholder{
+    color: rgb(228, 228, 228);
 }
 
 /* ////////////////////////// */

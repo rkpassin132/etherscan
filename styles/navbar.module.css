@@ -1,8 +1,8 @@
 .navbar{
     width: 85%;
     margin: 0 auto;
-    background-color: #1F1A36;
-    color: #9a02ac;
+    background-color: #2b3645;
+    color: #d1d1d2;
     margin-block: 1rem;
     padding: 1rem;
     border-radius: .5rem;
@@ -28,7 +28,7 @@
 }
 
 .left h1:hover{
-    color: #9a02ac;
+    color:  rgb(241, 241, 241);
 }
 
 .mobile{
@@ -40,10 +40,10 @@
 }
 
 .right button{
-    color: #9a02ac;
+    color: white;
     background: transparent;
     padding: .5rem;
-    border: 1px solid #9a02ac;
+    border: 1px solid white;
     border-radius: .5rem;
     font-weight: 700;
     cursor: pointer;
@@ -59,7 +59,7 @@
     right: 0;
     padding: 1rem;
     border-radius: .5rem;
-    background-color: #1F1A36;
+    background-color: #2b3645;
     width: 15rem;
 }
 
@@ -89,7 +89,7 @@
 .price{
     width: 85%;
     margin: 0 auto;
-    color: #9a02ac;
+    color: #d1d1d2;
     margin-block: 1rem;
     padding: 1rem;
 
@@ -100,7 +100,7 @@
 }
 
 .price__box{
-    background-color: #1F1A36;
+    background-color: #2b3645;
     border-radius: .5rem;
     display: flex;
     padding-left: 1rem;
@@ -121,7 +121,7 @@
 }
 
 .price__box p {
-    line-height: .5;
+    line-height: 1.4;
     font-weight: 600;
     font-size: 14px;
 }
@@ -133,6 +133,7 @@
 }
 .supplyIcon{
     font-size: 3rem;
+    color: #0776a9;
 }
 
 
@@ -140,7 +141,7 @@
     width: 80%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    border-left: 1px solid #9a02ac;
+    border-left: 1px solid #758293;
     text-align: center;
    
     padding-left: 2.5rem;
@@ -151,9 +152,10 @@
     margin-right: 1rem;
     font-size: 1.1rem;
     color: #fff;
-    background-color: #9a02ac;
+    background-color: #0776a9;
     padding: 1rem 0;
     border-radius: .2rem;
+    filter: drop-shadow(1px 2px 4px #0000004d);
 }
 
 
@@ -185,7 +187,7 @@
         cursor: pointer;
    }
     .mobile:hover{
-        color: #9a02ac;
+        color: #d1d1d2;
         }
 
    .price{
